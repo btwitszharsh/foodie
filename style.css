@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar{
+    background-color:  rgb(152, 250, 152);
+    color: black;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+#logo{
+    background-image: url("photos/FDie.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border:hover{
+    border: 1.5px solid black;
+}
+                                                            /*location box*/
+.nav-address{
+    margin-left: 20px;
+}
+#location{
+    height: 50px;
+    width: 50px;
+    color: rgb(152, 250, 152);
+}
+#addtag{
+    color: black;
+    font-size: 0.10 rem;
+    margin-left: 20px;
+}
+#add-icon{
+    display: flex;
+}
+#area{
+    color: black;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+                                            /*search bar*/
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+#box{
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#searchbutton{
+    background-color: rgb(25, 229, 236);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 40px;
+    font-size: 1.5rem;
+}
+                                            /*signin*/
+.signin button{
+    background-color: rgb(25, 229, 236);
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    height: 30px;
+}
+#acc_second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}   
+                                            /*orders*/
+#ord_second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+                                            /*help*/
+.help{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+                                            /*help*/
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 1rem;
+    font-weight: 700;
+}
+                                            /*panel*/
+.panel{
+    background-color: rgb(129, 225, 129);
+    height: 30px;
+    color: black;
+    align-items: center;
+    display: flex;
+    font-weight: 800;
+    width: 100%;
+}
+.panel_ops p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 30px;
+}
+.panel_ops p:hover{
+    border: 1px solid black;
+}   
+                                            /*Home Image*/
+.imagehome{
+    background-image: url("photos/foodie_replace.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.imagehome h1{
+    color: white;
+    padding-top: 200px;
+    padding-right: 900px;
+    font-weight: 800;
+    font-size:  50px;
+}
+                                            /*Shop*/
+.home-choice{
+    background-image: url("photos/background.png");
+    width: 100%;
+}
+.homeshop_row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 4px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: rgb(199, 186, 186);
+    border-radius: 40px;
+}
+.box:hover{
+    border: 5px solid white;
+}
+.box-img{
+    height: 325px;
+    padding: 15px 5px 0px 15px;
+    background-size: cover;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.divider{
+    height: 20px;
+    width:100%;
+    background-image: url("photos/background.png");
+}
+.homeshop_row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+                                            /*slogan*/
+/*.about-us{
+    
+}*/
+.about-us-back{
+    background-image: url("photos/background.png");
+    height: 500px;
+    text-align: center;
+    border:2px solid black ;
+}    
+.about-us-back h1{
+    padding-top: 150px;
+    font-family: cursive;
+    font-size: 50px;
+    color: #81EA81;
+    font-weight: 700;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 100px;
+}
+.about-us-back h2{
+    font-family: cursive;
+    font-size: 50px;
+    color: #81EA81;
+    font-weight: 700;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 100px;
+}
+                                            /*footer*/
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #080808;
+}
+.heading h1{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic;
+    padding: 100px 800px 0px 200px;
+    margin-left: 4%;
+}
+.foot-box{
+    display: flex;
+    height: 250px;
+    width: 70%;
+   /* border: 1.5px solid white;*/
+    margin-left: 15%;
+    margin-top: 25px;
+    align-items: center;
+}
+.foot{
+    height: 200px;
+    width: 20%;
+   /* border: 1px solid white;*/
+    text-align: center;
+
+}
+.headings{
+    color: white;
+    font-weight: 150;
+    font-size: 20px;
+}
+.contents p{
+    color: #62626A;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.links{
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.store{
+    border: 2px solid rgb(244, 244, 247);
+    height: 48px;
+    width: 155px;
+    margin-left: 40px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.store:hover{
+    border: 2px solid rgb(244, 244, 247);
+    height: 55px;
+    width: 170px;
+    margin-left: 35px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.divider-foot{
+    height: 0.1px;
+    width: 60%;
+    border: 0.01px solid #62626A;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.footer-tail p{
+    color: #62626A;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.contents p:hover{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
